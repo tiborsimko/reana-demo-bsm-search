@@ -5,6 +5,8 @@ inputs:
 workflow:
   type: yadage
   file: workflow/databkgmc.yml
+  directories:
+    - workflow
 outputs:
   files:
     - plot/prefit.pdf
